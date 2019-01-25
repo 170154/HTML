@@ -1,0 +1,97 @@
+body {
+    color: rgb(51, 51, 51);
+}
+#backGround {
+    top :10px;/*上部開ける*/
+    position :-webkit-sticky;/*ステッキー*/
+    position :sticky;/*ステッキー*/
+    border :inset 10px gray;/*枠*/
+    margin-left :85px;/*テテフ分開ける*/
+    max-width :895px;/*右側最大サイズ*/
+    border-radius :10px;/*丸く*/
+
+    background-image :url("../images/menu.jpg");/*イメージ*/
+    background-repeat :no-repeat;/*背景noRepeat*/
+    background-size :cover;/*画像中央寄せ*/
+
+    height :65px;
+    
+}
+#backGround::before {
+    /* 透過した黒を重ねる */
+	background-color: rgba(0,0,0,0.5);
+	/* どの範囲に重ねるかを指定 */
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+}
+#menu {
+    text-align :center;/*文字中央寄せ*/
+    font-size: 18px;/*フォントサイズ*/
+    position: absolute;
+    font-weight: bold;
+}
+/*
+#menu {
+    top :10px;
+    position :sticky;
+    position :-webkit-sticky;
+    background-image :url("../images/menu.jpg");
+    border-radius :10px;
+    border :inset 10px gray;
+    margin-left :65px;
+    font-size :20px;
+    max-width :920px;
+    background-repeat :no-repeat;
+    background-size :cover;
+    text-align :center;
+    z-index: 0;
+}
+#menu::before {
+    content: '';
+    background-color: rgba(0,0,0,.5);
+    position :absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+*/
+#idhead {
+    margin-left :50px;
+    clear :none;
+}
+li {
+    display :inline;
+    margin-right :30px;
+}
+body {
+    background-image :url("../images/blue.jpg");/*?*/
+}
+a:link { color :blue; }
+a:visited { color: orange; }
+a:hover { color: green; }
+a:active { color: yellow; }
+#back {
+    /* background-color :rgba(127, 151, 107, 0.8); */
+    background-color: rgba(246, 246, 246, 0.902);
+    /* background-color: rgba(167, 167, 129, 0.8); */
+    text-align :center;
+    max-width: 1000px;
+    border-radius :10px;
+}
+#main {
+    padding-right: 80px;
+    padding-left: 100px;
+}
+footer {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0;
+  background-color: #767671;
+  border-radius :10px;
+}

@@ -1,0 +1,11 @@
+#Lele {
+    position :fixed;
+    top :10px;
+    width: 80px;
+    height: 80px;
+    position :-webkit-sticky;
+    z-index: 1000;
+    border-radius :50%;
+    border: 2px solid rgba(127, 0, 127, 0.8);
+    background-position: center center;
+}
