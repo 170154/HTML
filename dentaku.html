@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>inputTest</title>
+  <link href="./css/dentaku.css" rel="stylesheet" type="text/css">
+  <script language="JavaScript">
+    var focusid = "0";//default
+    var focuslist = ["num1", "num2", "num3", "num4"];
+
+    function add(intN) {
+      var obj = document.activeElement;
+      // if (obj != focuslist) {
+      //   alert("");
+      // } else {
+      //   alert("");
+      // }
+      document.getElementById(focuslist[focusid]).value = intN;
+      //      document.getElementById("num1").value = intN;
+      //alert(intN);
+    }
+
+    function movement() {
+      setNextFocus(this);
+      // var obj = document.activeElement;
+      // document.getElementById(obj + 1).focus();
+      //elm[i + 1].focus();
+    }
+
+    function movement(ud) {
+      if (ud == "up") {
+        focusid = focuslist[fosusid + 1];
+      } else if (ud == "down") {
+        focusid = focuslist[fosusid - 1];
+      } else {
+        alert("無効な応答");
+      }
+
+      alert(focusid);
+      // setNextFocus(this - 2);
+    }
+
+  </script>
+</head>
+
+<body>
+  <input type="number" size="4" id="num1">
+  <input type="number" size="4" id="num2">
+  <input type="number" size="4" id="num3">
+  <input type="number" size="4" id="num4">
+  <table border="0" cellspacing="2" cellpadding="0" id="btn_num">
+    <tr>
+      <td>
+        <input type="button" class="fbtn" value="7" onClick="add('7');">
+      </td>
+      <td>
+        <input type="button" class="fbtn" value="8" onClick="add('8');">
+      </td>
+      <td>
+        <input type="button" class="fbtn" value="9" onClick="add('9');">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" class="fbtn" value="4" onClick="add('4');">
+      </td>
+      <td>
+        <input type="button" class="fbtn" value="5" onClick="add('5');">
+      </td>
+      <td>
+        <input type="button" class="fbtn" value="6" onClick="add('6');">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" class="fbtn" value="1" onClick="add('1');">
+      </td>
+      <td>
+        <input type="button" class="fbtn" value="2" onClick="add('2');">
+      </td>
+      <td>
+        <input type="button" class="fbtn" value="3" onClick="add('3');">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" class="fbtn" value="0" onClick="add('0');">
+      </td>
+      <td>
+        <input type="button" class="fbtn" value="△" onClick="movement('up');">
+      </td>
+      <td>
+        <input type="button" class="fbtn" value="▽" onClick="movement('down');">
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
