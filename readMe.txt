@@ -1,25 +1,31 @@
-’ño—pƒTƒCƒgƒ}ƒbƒv
-žƒtƒ‹ƒXƒNƒŠ[ƒ“ƒy[ƒW
+æå‡ºç”¨ã‚µã‚¤ãƒˆãƒžãƒƒãƒ—
+â—‡ãƒ•ãƒ«ã‚¹ã‚¯ãƒªãƒ¼ãƒ³ãƒšãƒ¼ã‚¸
  =index.html
 
-žƒVƒ“ƒOƒ‹ƒJƒ‰ƒ€
+â—‡ã‚·ãƒ³ã‚°ãƒ«ã‚«ãƒ©ãƒ 
  =Top.html
 
-ž‚QƒJƒ‰ƒ€
- =–¢
+â—‡ï¼’ã‚«ãƒ©ãƒ 
+ =æœª
 
-i’»ó‹µ
-i’»	ƒy[ƒW–¼Ì	“à—e			ƒŒƒCƒAƒEƒg		”õl
-¢	Top		ƒgƒbƒvƒy[ƒW		ƒtƒ‹ƒXƒNƒŠ[ƒ“	
-¢	Contact		–â‚¢‡‚í‚¹ƒy[ƒW	ƒVƒ“ƒOƒ‹ƒJƒ‰ƒ€		•Ï‚¦‚È‚¢
-~	Photograph	ì•iiŽÊ^jƒy[ƒW	ƒOƒŠƒbƒhƒŒƒCƒAƒEƒg	
-~	Card		ƒfƒbƒL‚ÌÐ‰îƒy[ƒW	2ƒJƒ‰ƒ€	
-~	Deck		ƒJ[ƒh‚ÌÐ‰îƒy[ƒW	2ƒJƒ‰ƒ€	
-~	profile		ƒvƒƒtƒB[ƒ‹‚ÆŽÀÑ	ƒVƒ“ƒOƒ‹ƒJƒ‰ƒ€	
-¢	index		‰Û‘è—pƒy[ƒW		ƒtƒ‹ƒXƒNƒŠ[ƒ“		•s—v
+â—‡è¿½åŠ ï¼šåŸ‹ã‚è¾¼ã¿map
+=Contact2
 
-¡Œã‚Ì—\’è
-top‚Ì“à—e‚ðindex‚É‘‚«Š·‚¦‚éiTop‚ðƒtƒ‹ƒXƒNƒŠ[ƒ“‰»‚µ‚Äindex‚ðíœj
-contact‚Ìcss‚ðØ‚è•ª‚¯‚é
-card‚Ædeck‚Ì‚Ð‚ÈŒ`‚ðì‚é
-photograph—p‚Ì‰æ‘œ‚ðW‚ß‚é
+â—‡è¿½åŠ ï¼šç¢ºçŽ‡è¨ˆç®—
+=CardGame
+
+é€²æ—çŠ¶æ³
+é€²æ—	ãƒšãƒ¼ã‚¸åç§°	å†…å®¹			ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆ		å‚™è€ƒ
+â–³	Top		ãƒˆãƒƒãƒ—ãƒšãƒ¼ã‚¸		ãƒ•ãƒ«ã‚¹ã‚¯ãƒªãƒ¼ãƒ³	
+â–³	Contact		å•ã„åˆã‚ã›ãƒšãƒ¼ã‚¸	ã‚·ãƒ³ã‚°ãƒ«ã‚«ãƒ©ãƒ 		å¤‰ãˆãªã„
+Ã—	Photograph	ä½œå“ï¼ˆå†™çœŸï¼‰ãƒšãƒ¼ã‚¸	ã‚°ãƒªãƒƒãƒ‰ãƒ¬ã‚¤ã‚¢ã‚¦ãƒˆ	
+Ã—	Card		ãƒ‡ãƒƒã‚­ã®ç´¹ä»‹ãƒšãƒ¼ã‚¸	2ã‚«ãƒ©ãƒ 	
+Ã—	Deck		ã‚«ãƒ¼ãƒ‰ã®ç´¹ä»‹ãƒšãƒ¼ã‚¸	2ã‚«ãƒ©ãƒ 	
+Ã—	profile		ãƒ—ãƒ­ãƒ•ã‚£ãƒ¼ãƒ«ã¨å®Ÿç¸¾	ã‚·ãƒ³ã‚°ãƒ«ã‚«ãƒ©ãƒ 	
+â–³	index		èª²é¡Œç”¨ãƒšãƒ¼ã‚¸		ãƒ•ãƒ«ã‚¹ã‚¯ãƒªãƒ¼ãƒ³		ä¸è¦
+
+ä»Šå¾Œã®äºˆå®š
+topã®å†…å®¹ã‚’indexã«æ›¸ãæ›ãˆã‚‹ï¼ˆTopã‚’ãƒ•ãƒ«ã‚¹ã‚¯ãƒªãƒ¼ãƒ³åŒ–ã—ã¦indexã‚’å‰Šé™¤ï¼‰
+contactã®cssã‚’åˆ‡ã‚Šåˆ†ã‘ã‚‹
+cardã¨deckã®ã²ãªå½¢ã‚’ä½œã‚‹
+photographç”¨ã®ç”»åƒã‚’é›†ã‚ã‚‹
